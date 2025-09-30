@@ -5,6 +5,8 @@ services:
       dockerfile: Dockerfile
       args:
         TEST: "${TEST}"
+    ports:
+      -"3003
     environment:
       - FQDN=${SERVICE_FQDN_API}
       - PORT=3000

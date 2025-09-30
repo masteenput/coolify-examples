@@ -9,7 +9,6 @@ services:
       - "3000"
     environment:
       - URL=$SERVICE_URL_MY_SERVICE_NAME
-      - PORT=3000
       - DB_CONNECTION=postgres
       - TEST=${TEST}
       - TEST_PASSWORD=$SERVICE_PASSWORD_64_API
